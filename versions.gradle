@@ -121,4 +121,8 @@ ext {
             targetSdkVersion : 28,
             buildToolsVersion: '28.0.3'
     ]
+    storeFilePath = "cidemo.keystore"
+    storePassword = "storepwd"
+    keyAlias = "cidemokey"
+    keyPassword = "keypwd"
 }
